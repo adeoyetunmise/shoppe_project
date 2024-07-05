@@ -109,7 +109,7 @@ a:hover{
 }
 
 p, h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-family: bold;
 }
 
@@ -117,6 +117,7 @@ a.right{
     font-size: 1rem;
     float: right;
     color: #a18a68;
+    font-family: "Open Sans", sans-serif;
 }
 
 .row{
@@ -139,6 +140,10 @@ a.right{
     margin-right: 0rem;
 }
 
+.item p{
+    font-family: "Open Sans", sans-serif;
+}
+
 .price{
     color: #a18a68;
 }
@@ -153,13 +158,14 @@ footer{
 
 .footer-links a{
     color: gray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding-right: 2rem;
 }
 
 .newsletter-container input, button{
     border: none;
     background-color: white;
+    font-family: "Open Sans", sans-serif;
 
 }
 
@@ -182,6 +188,7 @@ footer{
     display: flex;
     flex-direction: row;
     padding-top: 3rem;
+    font-family: "Open Sans", sans-serif;
 }
 
 .copyright-img{
