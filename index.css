@@ -150,10 +150,14 @@ a.right{
 
 
 /* Footer */
-footer{
-    display: flex;
-    flex-direction: row;
+footer{ 
     padding-top: 2rem;
+}
+
+.footer-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-links a{
@@ -189,10 +193,14 @@ footer{
     flex-direction: row;
     padding-top: 3rem;
     font-family: "Open Sans", sans-serif;
+    
+
 }
 
 .copyright-img{
     width: 5%;
+    position: relative;
+    top: 3px;
     
 }
 
@@ -204,3 +212,4 @@ footer{
 #social{
     padding-left: 2rem;
 }
+
