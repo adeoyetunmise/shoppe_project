@@ -91,84 +91,145 @@
 
         <!-- Product Menu -->
         <div class="product-menu">
-            <div class="menu-item1">Description</div>
-            <div class="menu-item2">Additional Information</div>
-            <div class="menu-item3">Reviews (0)</div>
+            <div class="menu-item">Description</div>
+            <div class="menu-item">Additional Information</div>
+            <div class="menu-item active">Reviews (0)</div>
         </div>
-        <hr>
-
         <div class="reviews-container">
             <div class="reviews-list">
-                <h4>2 Reviews for lira earrings</h4>
-
-                <div class="reviews-person">
-                    <h4>Scarlet withch</h4>
-                    <p class="review-date">6 May,2020</p>
-                </div>
-                <img src="fullstar.svg" alt="Full star 1">
-                <img src="fullstar.svg" alt="Full star 2">
-                <img src="fullstar.svg" alt="Full star 3">
-                <img src="emptystar.svg" alt="Empty star 1">
-                <img src="emptystar.svg" alt="Empty star 2">
-
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. accusantium iste nam
-                    perspiciatis fugit
-                    odit deleniti doloribus incidunt commodi nesciunt!</p>
+                <h4>2 Reviews for Lira Earrings</h4>
                 <br>
-                <hr>
-
-                <div>
-                    <div class="reviews-person">
-                        <h4>Scarlet withch</h4>
-                        <p class="review-date">6 May,2020</p>
-                    </div>
+                <br>
+                <p class="review-title">
+                    <span>Scarlet Witch</span>
+                    <span class="date">
+                        &nbsp;&nbsp;6 May, 2020
+                    </span>
+                </p>
+                <div class="star-rating">
                     <img src="fullstar.svg" alt="Full star 1">
                     <img src="fullstar.svg" alt="Full star 2">
                     <img src="fullstar.svg" alt="Full star 3">
-                    <img src="emptystar.svg" alt="Empty star 1">
-                    <img src="emptystar.svg" alt="Empty star 2">
-
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. accusantium iste nam incidunt commodi!
-                    odit deleniti doloribus incidunt commodi nesciunt!odit deleniti doloribus <br> incidunt commodi!incidunt commodi!</p>
+                    <img src="emptystar.svg" alt="Empty star 4">
+                    <img src="emptystar.svg" alt="empty star 5">
                 </div>
+                <p class="review-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex unde vero illum.Ex unde vero illum.Ex unde vero illum.
+                </p>
+                <hr>
+                <p class="review-title">
+                    <span>Scarlet Witch</span>
+                    <span class="date">
+                        &nbsp;&nbsp;6 May, 2020
+                    </span>
+                </p>
+                <div class="star-rating">
+                    <img src="fullstar.svg" alt="Full star 1">
+                    <img src="fullstar.svg" alt="Full star 2">
+                    <img src="fullstar.svg" alt="Full star 3">
+                    <img src="emptystar.svg" alt="Empty star 4">
+                    <img src="emptystar.svg" alt="empty star 5">
+                </div>
+                <p class="review-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex unde vero illum.Ex unde vero illum.Ex unde vero illum.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex unde vero illum.Ex unde vero illum.Ex unde vero illum.
+                </p>
             </div>
+            <div class="review-form">
+                <h3>Add a Review</h3>
+                <p class="review-info">
+                    Your email address will not be published. Required fields are marked <sup>*</sup>
+                </p>
+                <br>
+                <br>
+                <form>
+                    <label for="review-input" class="label">Your Review<sup>*</sup></label>
+                    <br>
+                    <textarea name="review-input" id="review-input" class="review-input"></textarea>
 
-
-            <div class="add-a-review">
-                <div class="review-info">
-                    <h4>Add a Review</h4>
-                    <p>Your Email Will Not Be Published. Required Fields Are Marked*</p>
-                </div>
-
-                <div class="review-form">
-                    <form class="review-inputs">
-                        <label for="your review"></label>
-                        <input type="text" name="review" placeholder="Your Review*"> <br>
-                        <label for="your name"></label>
-                        <input type="text" name="name" placeholder="Enter your name*"> <br>
-                        <label for="your email"></label>
-                        <input type="email" name="email" placeholder="Enter your Email*"> <br>
-
-                        <input type="checkbox" name="checkbox">
-                        <label for="checkbox">Save my name, email, and website in this browser for the next time i
-                            comment.</label>
-                    </form>
-
-                    <div class="emptys-rating">
-                        <img src="emptystar.svg" alt="Full star 1">
-                        <img src="emptystar.svg" alt="Full star 2">
-                        <img src="emptystar.svg" alt="Empty star 3">
-                        <img src="emptystar.svg" alt="Empty star 4">
-                        <img src="emptystar.svg" alt="Empty star 5">
+                    <br>
+                    <label class="label">
+                        <p>Name<sup>*</sup></p>
+                        <input type="text" name="name">
+                    </label>
+                    <br>
+                    <br>
+                    <label class="label">
+                        <p>Email<sup>*</sup></p>
+                        <input type="text" name="email">
+                    </label>
+                    <br>
+                    <br>
+                    <input type="checkbox" name="save" class="check-save" id="save-info">
+                    <label for="save-info" class="save-info">Save my name, email, and website in this browser for the next time I comment</label>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="label">Your Rating<sup>*</sup></p>
+                    <div class="star-rating">
+                        <img src="emptystar.svg" alt="empty star 1">
+                        <img src="emptystar.svg" alt="empty star 2">
+                        <img src="emptystar.svg" alt="empty star 3">
+                        <img src="emptystar.svg" alt="empty star 4">
+                        <img src="emptystar.svg" alt="empty star 5">
                     </div>
-                </div>
-
-                <button>Submit</button>
+                    <button class="submit">Submit</button>
+                </form>
             </div>
-
         </div>
 
+
+        <h2 class="similar">Similar Items</h2>
+        <div class="row">
+            <div class="item">
+                <img src="item2.png" alt="">
+                <p>Ollie Earrings</p>
+                <p class="price">$ 20.00</p>
+            </div>
+
+            <div class="item">
+                <img src="item5.png" alt="">
+                <p>Hal Earrings</p>
+                <p class="price">$ 20.00</p>
+            </div>
+
+            <div class="item">
+                <img src="item3.png" alt="">
+                <p>Kaede Hair Pin Set Of 3</p>
+                <p class="price">$ 20.00</p>
+            </div>
+        </div>
     </main>
+<!-- footer -->
+    <hr>
+    <footer>
+    <div class="footer-links-container">
+        <div class="footer-links">
+            <a href="#">CONTACT</a>
+            <a href="#">TERMS OF SERVICE</a>
+            <a href="#">SHIPPING AND RETURNS</a>
+        </div>
+        <div class="newsletter-container">
+            <input type="text" placeholder="Give an email,get the newsletter ">
+            <button type="submit">
+                <img src="arrow.svg" alt="">
+            </button>
+        </div>
+    </div>
+        <div class="copyright">
+            <div>
+                <!-- <div>&copy;</div> -->
+                <img src="copyright.png" alt="" class="copyright-img">
+                <span><strong>2021 Shelly.</strong> Terms of use <strong>and</strong> privacy policy.</span>
+            </div>
+    
+            <div class="media">
+                <img src="mail.svg" alt="" id="social">
+                <img src="facebook.svg" alt="" id="social">
+                <img src="instagram.svg" alt="" id="social">
+                <img src="twitter.svg" alt="" id="social">
+            </div>
+        </div>
+    </footer>
 
 </body>
 
